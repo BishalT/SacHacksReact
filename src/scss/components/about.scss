@@ -1,0 +1,76 @@
+// about div
+.about{
+    width: 100%;
+    height: 100vh;
+
+  h1{
+    color: white;
+    font-size: $titleMobile;
+    margin-bottom: 10px;
+    font-weight: $titleWeight;
+    letter-spacing: -1.7px;
+  }
+  .yellow {
+   color: $yellow;
+   font-weight: 900;
+  }
+
+  .about-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+  }
+
+  .about-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+  }
+
+  .detail {
+    p{
+      color: white;
+      font-size: $mobileDetail;
+      line-height: $detailHeight;
+      font-weight: $detailWeight;
+    }
+    width: 75%;
+  }
+  .about-image {
+    height: 300px;
+    width: 300px;
+  }
+
+  @media screen and (min-width:1025px) {
+      flex-direction: row;
+      text-align: center;
+      h1{
+          text-align: left;
+          font-size: $title;
+      }
+      p{
+          text-align: left;
+          font-size: $detail;
+          letter-spacing: $spacingDesktop;
+      }
+      .about-description {
+        display: block;
+        margin-left: 100px;
+      }
+
+      .about-content {
+        flex-direction: row;
+      }
+
+      .about-image {
+        max-width: 650px;
+        max-height: 650px;
+        height: auto;
+        width: auto;
+      }
+  }
+}
