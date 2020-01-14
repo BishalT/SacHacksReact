@@ -21,7 +21,7 @@ html
   height: 2px
   background: transparent
   box-shadow: $shadows-medium
-  animation: animStar 200s linear infinite
+  animation: animStar 100s linear infinite
     
   &:after
     content: " "
@@ -34,7 +34,6 @@ html
     
 @keyframes animStar
   from	
-    transform: translateY(0px)
-  to		
     transform: translateY(-2000px)
-    
+  to		
+    transform: translateY(2000px)

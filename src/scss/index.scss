@@ -112,9 +112,8 @@ h1{
 // main background
 .wrapper {
   // background-color:#002561;
-
   background: rgb(2,0,36);
-  background: radial-gradient(at bottom left, rgba(0,166,255,1) 0% , rgba(9,9,121,1) 30%, rgba(2,0,36,1) 70%);
+  background: radial-gradient(at bottom left, rgba(0,166,255,1) 0% , rgba(9,9,121,1) 20%, rgba(2,0,36,1) 70%);
   position: relative;
   background-attachment: fixed;
   margin: 0;
